@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: #222;
+    background: rgb(238, 157, 7);
     font-family:'work sans',sans-serif;
     font-weight: 300
 } 
@@ -10,20 +10,27 @@ width: 80%;
 margin:0 auto;    
 }
 
+div#container{
+    justify-content: center;
+}
+
 header{
-    background: #55d6aa;
+    background: #0ad4c4c2;
 }
 header::after{
     content:'';
     display: table;
     clear: both;
 }
-h1{
-    float: left;
+.logo{
+    display: flex
+
 }
 
 nav{
-    float: right 
+    float: left
+    ;
+     
 }
 
 nav ul {
@@ -35,5 +42,7 @@ nav ul {
 
 
 nav li{
-    display: inline-block;
+    display: inline-flex;
+    margin-left: 70px;
+    padding: 25px;
 }
