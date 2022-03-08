@@ -53,3 +53,28 @@ nav li{
     padding: 20px;
     font-size: 20px;
 }
+
+ul.sidescroll{
+    display:inline-flex;
+    list-style: none;
+    overflow: scroll;
+    scrollbar-width: thin;
+    
+   
+   
+}
+
+.sidescroll li{
+    padding: 10px;
+
+}
+
+ul.sidescroll img{
+    height: 100%;
+    width: 13em;
+
+
+}
+
+
+    
