@@ -71,10 +71,15 @@ ul.sidescroll{
 
 ul.sidescroll img{
     height: 100%;
-    width: 13em;
+    width: 18em;
 
 
 }
 
-
+h2{
+    text-align: center;
+}
     
+p{
+    text-align: center;
+}
