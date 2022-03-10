@@ -10,10 +10,7 @@ width: 80%;
 margin:0 auto;    
 }
 
-div#container{
-   
 
-}
 
 header{
     background: #0ad4c4c2;
@@ -72,12 +69,7 @@ ul.sidescroll{
     list-style: none;
     overflow-x: scroll;
     
-   
-      
-
-    
-   
-   
+    width:  100%   
 }
 
 .sidescroll li{
@@ -91,7 +83,9 @@ ul.sidescroll img{
 
 
 }
-
+::-webkit-scrollbar{
+    width: 0;
+    }
 h2{
     text-align: center;
 }
